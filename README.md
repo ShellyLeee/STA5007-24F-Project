@@ -1,4 +1,4 @@
-# STA5007-24F-Project
+# STA5007-24F-Project: Fine-tuning Gemma2 on GPT-4 Chinese QA Dataset
 > Project code guide for STA5007 Advanced Natural Language Processing in 2024 Fall, Department of Statistics and Data Science, SUSTech
 
 This project focuses on fine-tuning the Google Gemma2 model, a transformer-based large language model, for Chinese question-answering tasks. The primary goal is to enhance the model's ability to generate accurate, contextually relevant, and high-quality answers to a diverse range of questions. The fine-tuning process leverages FreedomIntelligence/Evol-Instruct-Chinese-GPT4, a dataset of 70,000 high-quality Chinese question-answer pairs, specifically designed for instruction-tuned models (link: https://huggingface.co/datasets/FreedomIntelligence/Evol-Instruct-Chinese-GPT4). Due to computational constraints, a subset of 1,000 samples was selected for training.
